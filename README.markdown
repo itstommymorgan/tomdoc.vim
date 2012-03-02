@@ -1,5 +1,8 @@
 # tomdoc.vim
 
+![A tomdoc.vim
+preview.](http://cl.ly/0m3L021g1u0Z3e2V3M25/Screen%20Shot%202012-03-01%20at%2011.59.48%20PM.png)
+
 ## Purpose
 
 Tomdoc.vim is a syntax add-on for vim designed to parse [TomDoc][tomdoc] comments.

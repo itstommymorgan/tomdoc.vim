@@ -36,7 +36,11 @@ class TestClass
   #                  be specified in grams (optional).
   # &block - the block that stuff happens to.
   #
-  # Yes, I stole those from the TomDoc spec.
+  # Examples
+  #
+  #   internal_method { :color => "red", :weight => 180 } do |good|
+  #     ...
+  #   end
   #
   # Returns ABSOLUTELY NOTHING
   def internal_method(arg1)
