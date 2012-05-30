@@ -5,8 +5,7 @@
 "
 
 syn keyword tomdocKeywords Returns containedin=coffeeComment contained
-syn keyword tomdocKeywords Yields containedin=coffeeComment contained
-syn keyword tomdocKeywords Raises containedin=coffeeComment contained
+syn keyword tomdocKeywords Throws containedin=coffeeComment contained
 syn keyword tomdocKeywords Examples containedin=coffeeComment contained
 syn keyword tomdocKeywords Signature containedin=coffeeComment contained
 
