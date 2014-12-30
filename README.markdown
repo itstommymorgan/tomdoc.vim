@@ -34,11 +34,17 @@ check in on the current development status first.
 
 ## Development Notes
 
-I normally try to TDD, but I'm not sure how to write tests for a vim syntax
-file. So note that there's a test.rb file available in this repository - it has
-some TomDoc-style comments in it and is very valuable for a quick check to make
-sure the syntax highlighting is working the way you want it to when you make
-changes.
+To run the tests you'll need ruby and the bundler gem. To install the dependencies:
+
+```console
+bundle install
+```
+
+To run all the tests:
+
+```console
+rake test
+```
 
 ## License
 Copyright (C) 2012 by Tommy Morgan
