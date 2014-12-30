@@ -13,10 +13,10 @@ TomDocs pretty, so that you get more enjoyment out of using them.
 
 ## Get it
 
-You can either just throw after/syntax/ruby.vim into your ~/.vim folder, or you
-could use something better like Vundle (highly recommended) or Pathogen
-(somewhat less highly recommended) to manage this package for you. It
-should be compatible with both.
+You can either just throw the `plugin` and `syntax` directories into your
+`~/.vim` folder, or you could use something better like Vundle (highly
+recommended) or Pathogen (somewhat less highly recommended) to manage this
+package for you. It should be compatible with both.
 
 ## Known issues
 
@@ -32,13 +32,27 @@ over Github. You can also just fork it and make some changes, but there's a
 better chance that your work won't be duplicated or rendered obsolete if you
 check in on the current development status first.
 
+#### Contributors
+
+- [Kassio Borges](https://github.com/kassio), who took the time to re-write 
+  the plugin the way it should have been written in the first place.
+
 ## Development Notes
 
-To run the tests you'll need ruby and the bundler gem. To install the dependencies:
+To run the tests you'll need the following:
+
+- A working version of Ruby
+- A working version of vim with the `clientserver` feature enabled. This is *typically* enabled
+  by default for all vim distributions - you can check this by running `vim --version` and looking for
+  `+clientserver` in the output.
+
+If you have bundler, all you need to do to install the required gems is run:
 
 ```console
 bundle install
 ```
+
+If you don't have/don't want bundler, you can instead install all of the gems as described in the `Gemfile`.
 
 To run all the tests:
 
